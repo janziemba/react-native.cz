@@ -37,7 +37,7 @@ const companies = [
 export default function Home() {
 	return (
 		<div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-inter)]">
-			<main className="flex flex-col gap-3 row-start-2 items-center sm:items-start">
+			<main className="flex flex-col gap-3 row-start-2">
 				<Image
 					src="/react-native.svg"
 					alt="Next.js logo"
@@ -55,7 +55,7 @@ export default function Home() {
 				<h2 className="text-lg font-bold mt-8">
 					Které firmy v Česku používají React Native?
 				</h2>
-				<ul className="list-inside list-disc mt-0 text-sm text-center sm:text-left">
+				<ul className="list-inside list-disc mt-0 text-sm">
 					{companies.map((company) => (
 						<li key={company.title}>
 							<a
@@ -73,7 +73,7 @@ export default function Home() {
 					Které firmy v Česku hledají React Native vývojáře?
 				</h2>
 				<p className="text-sm">Mrkněte na:</p>
-				<ul className="list-inside list-disc mt-0 text-sm text-center sm:text-left">
+				<ul className="list-inside list-disc mt-0 text-sm">
 					<li>
 						<a
 							className="hover:underline hover:underline-offset-4"
