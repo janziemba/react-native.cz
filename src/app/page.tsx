@@ -22,7 +22,6 @@ const companies = [
 	{ title: "Mafra", url: "https://www.mafra.cz" },
 	{ title: "Meddi Hub", url: "https://www.meddi.cz" },
 	{ title: "OKSystem", url: "https://www.oksystem.cz" },
-	{ title: "OpenVPN", url: "https://www.openvpn.net" },
 	{ title: "Purple Technology", url: "https://www.purple-technology.com" },
 	{ title: "Qest", url: "https://www.qest.cz" },
 	{ title: "Regiojet", url: "https://www.regiojet.cz" },
